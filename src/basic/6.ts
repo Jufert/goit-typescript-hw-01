@@ -1,11 +1,11 @@
 interface User {
-    name: string;
-    age: number;
-    email: string;
-    address: {
-        city: string;
-        country: string;
-    };
+  name: string;
+  age: number;
+  email: string;
+  address?: {
+    city: string;
+    country: string;
+  };
 }
 const mango = {
   name: "Mango",
@@ -16,7 +16,6 @@ const mango = {
     country: "USA",
   },
 };
-
 
 const poly = {
   name: "Mango",
